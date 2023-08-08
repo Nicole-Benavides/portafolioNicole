@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="css/Styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg barra">
+            <div class="container">
+                <a class="navbar-brand barra-logo" href="#">Nicole</a>
+                <button class="navbar-toggler barra-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img src="img/menu.png" alt="menu">
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav barra-lista">
+                        <li class="nav-item">
+                            <a class="nav-link enlace activo" aria-current="page" href="#" id="enlace1">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlace" href="#sobre" id="enlace2">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlace" href="#portafolio" id="enlace3">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlace" href="#perfil" id="enlace4">Perfil Profesional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlace" href="#logros" id="enlace5">Logros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlace" href="#contacto" id="enlace6">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>
+                            Nicole Dayana <br>
+                            Benavides <br>
+                            Alfonso
+                        </h1>
+                        <h2>
+                            Desarrolladora Web
+                        </h2>
+                        <a href="CV.pdf" target="_blank" class="contactame">Descargar CV <img src="img/CV.png"
+                                alt="CV"></a>
+                    </div>
+                    <div class="col-md-4 foto-hero">
+                        <img src="img/foto-hero.png" alt="Foto de presentación">
+                    </div>
+                    <div class="col-md-2 redes">
+                        <a href="https://github.com/Nicole-Benavides" target="_blanck"><img src="img/GitHub.png"
+                                alt="GitHub"></a>
+                        <a href="https://www.linkedin.com/in/nicole-dayana-benavides-alfonso-356a62273/"
+                            target="_blanck"><img src="img/LinkedIn.png" alt="LinkedIn"></a>
+                        <a href="https://wa.link/ekwvw7" target="_blanck"><img src="img/WhatsApp.png"
+                                alt="WhatsApp"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <h2 data-aos="fade-up" data-aos-duration="2000">Sobre Mí</h2>
+                <div class="row">
+                    <div class="col-md-4 foto-sobre" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="img/foto-sobre.png" alt="Foto compitiendo">
+                    </div>
+                    <div class="col-md-8 textos-sobre" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="subtitulos">
+                            <h3>Biografía</h3>
+                            <hr>
+                        </div>
+                        <p>
+                            Actualmente, estoy cursando el VI trimestre
+                            del Tecnólogo Análisis y Desarrollo de
+                            Software (ADSO) en el Centro de Diseño y Metrología.
+                        </p>
+                        <div class="subtitulos2">
+                            <h3>Experiencia</h3>
+                            <hr>
+                        </div>
+                        <p>
+                            En diferentes proyectos relacionados con el área de Desarrollo Web. Por lo tanto, cuento con
+                            conocimientos técnicos y habilidades blandas como el trabajo en equipo y bajo presión, la
+                            comunicación asertiva, la adaptación al cambio y la confianza. Características que me ayudan
+                            a competir en la habilidad 17 de Tecnologías Web de la estrategia WorldSkills 2023.
+                        </p>
+                        <div class="instituciones ">
+                            <img src="img/worldSkills.png" alt="logo-worldskills" id="logo-worldskills">
+                            <img src="img/sena.png" alt="logo sena">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portafolio">
+            <div class="container">
+                <h2>Portafolio</h2>
+                <div class="row">
+                    <!-- Descripciones -->
+                    <div class="col-md-8">
+                        <div class="card-portafolio" data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                            data-aos-duration="1000">
+                            <a href="https://nicole-benavides.github.io/cinescape/" target="blanck"><img
+                                    src="img/mas-icon.png" alt="mas-icon"></a>
+                            <div class="info-portafolio">
+                                <h3>Cinescape</h3>
+                                <p>
+                                    Desarrollo del front-end de la aplicación CINESCAPE la cual es una empresa
+                                    (ficticia) encarga de la exhibición de películas de cine en el país.”
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-portafolio" data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                            data-aos-duration="1500">
+                            <a href="#"><img src="img/mas-icon.png" alt="mas-icon"></a>
+                            <div class="info-portafolio">
+                                <h3>Tu mejor amigo en casa</h3>
+                                <p>
+                                    Desarrollador back-end para gestionar la aplicación móvil TU MEJOR AMIGO EN CASA
+                                    donde puedan realizar un
+                                    CRUD (adicionar, consultar, modificar y eliminar las mascotas).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-portafolio" data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                            data-aos-duration="2000">
+                            <a href="#"><img src="img/mas-icon.png" alt="mas-icon"></a>
+                            <div class="info-portafolio">
+                                <h3>Music Beat</h3>
+                                <p>
+                                    Desarrollo del front-end de un sitio web responsive para una banda de rock
+                                    (ficticia), basado en el prototipo entregado.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-portafolio" data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                            data-aos-duration="2500">
+                            <a href="#"><img src="img/mas-icon.png" alt="mas-icon"></a>
+                            <div class="info-portafolio">
+                                <h3>Tu Inmueble Ideal</h3>
+                                <p>
+                                    Desarrollo del back-end de la aplicación web diseñada específicamente para el sector
+                                    inmobiliario. Donde se realizó un CRUD y validaciones básicas del lado del servidor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carusel de imagenes -->
+                    <div class="col-md-4">
+                        <div class="carrusel-portafolio">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+
+                                <!-- contenedor del carrusel -->
+                                <div class="carousel-inner carrusel-cont">
+
+                                    <div class="carousel-item active">
+                                        <img src="img/posterCine.svg" alt="">
+                                    </div>
+
+                                    <div class="carousel-item active">
+                                        <img src="img/posterMacotas.svg" alt="">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/posterMusica.svg" alt="">
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="perfil" data-aos="fade-up" data-aos-duration="1000">
+            <div class="container">
+                <h2>Perfil Profesional</h2>
+                <p>
+                    Como estudiante de desarrollo de software, me enfoco en adquirir habilidades para diseñar,
+                    desarrollar y mantener sistemas informáticos, interpretando los requerimientos del cliente de manera
+                    precisa y eficaz, con la finalidad de ejecutar la solución al problema planteado, a través del
+                    desarrollo de páginas web y/o aplicaciones que sean funcionales y de alta calidad, para poder
+                    brindarle satisfacción al cliente y éxito en los próximos proyectos colaborativos.
+                </p>
+                <div class="row">
+                    <div class="col-md-6 card-perfil">
+                        <h3>Habilidades</h3>
+                        <div class="lista-perfil">
+                            <ul>
+                                <li data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="1000">Aprendizaje continuo.</li>
+                                <li data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="1500">Resolución de problemas.</li>
+                                <li data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="2000">Comunicación asertiva.</li>
+                                <li data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="2500">Trabajo en equipo.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 card-perfil">
+                        <h3>Conocimiento</h3>
+                        <div class="lista-perfil">
+                            <ul>
+                                <li data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="1000">Fundamentos de desarrollo del software.</li>
+                                <li data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="1500">Desarrollo Front-End.</li>
+                                <li data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="2000">Desarrollo Back-End.</li>
+                                <li data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="2500">Base de datos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row herramientas">
+                    <div class="col-md-12">
+                        <h3>Habilidades Técnicas</h3>
+                        <div class="card-herramientas">
+                            <div class="cont-herramientas">
+                                <img src="img/html.png" alt="">
+                            </div>
+
+                            <div class="cont-herramientas">
+                                <img src="img/css.png" alt="">
+                            </div>
+
+                            <div class="cont-herramientas">
+                                <img src="img/js.png" alt="">
+                            </div>
+
+                            <div class="cont-herramientas">
+                                <img src="img/Bootstrap.svg.png" alt="">
+                            </div>
+
+                            <div class="cont-herramientas">
+                                <img src="img/figma.png" alt="">
+                            </div>
+                            <div class="cont-herramientas">
+                                <img src="img/php.png" alt="">
+                            </div>
+
+                            <div class="cont-herramientas">
+                                <img src="img/mysql.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="logros">
+            <div class="container">
+                <h2>Logros</h2>
+                <div class="row filtro">
+                    <!-- Texto introduccion -->
+                    <div class="col-md-8">
+                        <p>
+                            En esta sección, encontrarás una variedad de oportunidades y logros académicos, proyectos
+                            destacados, habilidades perfeccionadas que he alcanzado con perseverancia y dedicación,
+                            contribuyendo significativamente a mi crecimiento tanto personal como profesional.
+                        </p>
+                    </div>
+                    <!-- imagene de filtro -->
+                    <div class="col-md-4">
+                        <!-- cambiar nombre de contenedor -->
+                        <div class="logros-certificados">
+                            <a href="img/certificado.jpeg" target="_blank"><img src="img/worldSkills.png" alt=""
+                                    id="btnWorldSkills"></a>
+                            <a href="CERTIFICADO BOOTCAMP.pdf" target="_blank"><img src="img/azure.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row hola">
+                    <!-- Preseleccion Nacional -->
+                    <div class="col-md-4">
+
+                        <div class="card-logros">
+                            <img src="img/trofeo.png" alt="trofe" data-aos="flip-left">
+                            <img src="img/podio.png" alt="podio">
+                            <h3>
+                                Preselección <br>
+                                Nacional
+                            </h3>
+                            <div class="cont-mas">
+                                <a href="#detalleLogro1" class="mas" id="trofeo1">Ver más</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Competencia Regional -->
+                    <div class="col-md-4">
+                        <div class="card-logros">
+                            <img src="img/trofeo.png" alt="trofeo" data-aos="flip-left">
+                            <img src="img/podio.png" alt="podio">
+                            <h3>
+                                Competencia <br>
+                                Regional
+                            </h3>
+                            <div class="cont-mas">
+                                <a href="#detalleLogro2" class="mas" id="trofeo2">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Competencia CDM -->
+                    <div class="col-md-4">
+                        <div class="card-logros">
+                            <img src="img/trofeo.png" alt="trofe" data-aos="flip-left">
+                            <img src="img/podio.png" alt="podio">
+                            <h3>
+                                Competencia <br>
+                                Interna CDM
+                            </h3>
+                            <div class="cont-mas">
+                                <a href="#detalleLogro3" class="mas" id="trofeo3">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- inmuebles -->
+        <section id="detalleLogro1" class="detalleLogro">
+            <div class="container">
+                <h2>Preseleccion Nacional</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            La Preselección Nacional de WorldSkills se realizó en los 21 Centros de Formación del SENA, en la cual solo pasaban 6 representantes, quienes competirán en octubre en Cúcuta. 
+                        </p>
+                        <!-- <h3>Tipo de Prueba:</h3>
+                        <p>Da click sobre la prueba que deseas ver.</p>
+                        <div class="accordion accordion-flush acordion acordion-detalle" id="accordionFlushExample">
+                            <div class="accordion-item acordion-detalle">
+                                <h2 class="accordion-header acordion-detalle">
+                                    <button class="accordion-button collapsed acordion-detalle boton" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Front-End
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse acordion-detalle boton"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body acordion-detalle">
+                                        <p>
+                                            El reto busca descubrir y analizar las habilidades del candidato en el
+                                            desarrollo del frontend para brindarte una experiencia musical inigualable.
+                                            Queremos garantizar una interfaz atractiva y fluida para nuestros usuarios,
+                                            y es por eso que ofrecemos todos los recursos necesarios para crear
+                                            interfaces excepcionales.
+                                        </p>
+
+                                        <h4>Tecnologias Utilizadas:</h4>
+                                        <div class="tecnologias">
+                                            <p>
+                                                Para desarrollar esta prueba se utilizaron las
+                                                siguientes tecnologías: HTML para la estructura de las páginas, CSS se
+                                                empleó para darles estilo y presentación visual. Por su parte,
+                                                JavaScript se utilizó para agregar interactividad y funcionalidades
+                                                dinámicas a la aplicación.
+                                            </p>
+                                            <div class="card-tecnologias">
+                                                <img src="img/html.png" alt="html">
+                                            </div>
+
+                                            <div class="card-tecnologias">
+                                                <img src="img/css.png" alt="css">
+                                            </div>
+
+                                            <div class="card-tecnologias">
+                                                <img src="img/js.png" alt="js">
+                                            </div>
+                                        </div>
+                                        <p>
+                                            CSS se empleó para darles estilo y presentación visual. Por su parte,
+                                            JavaScript se utilizó para agregar interactividad y funcionalidades
+                                            dinámicas a la aplicación.
+                                        </p> -->
+                        <!-- <a href="#" class="contactame">Descargar</a> -->
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- Contenedor Competencia Regional -->
+        <section id="detalleLogro2" class="detalleLogro">
+            <div class="container">
+                <h2>Competencia Regional</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            La Competencia Regional de WorldSkills se realizó en el Centro de Diseño y Metrología (CDM)
+                            donde participaron 3 centros diferentes entre ellos: Electricidad, Audiovisuales y Cenigraf.
+                            De la misma forma el grupo de competidores estaba conformado por 9 aprendices SENA que ya
+                            habían pasado el proceso de selección Interna en su centro correspondiente. En esta ocasión
+                            el representante de Electricidad Juan ganó la medalla de plata, y en representación del CDM
+                            mi compañero Estiben ganó la medalla de plata Steven y yo gané la medalla de Oro.
+                        </p>
+                        <div class="imagen-introduccion">
+                            <img src="img/compañerosRegional.jpg" alt="" title=" y Entrenadores">
+                            <figcaption>Competidores con sus Entrenadores</figcaption>
+                        </div>
+                        <h3>Tipo de Prueba:</h3>
+                        <p>
+                            En esta competencia, los cuatro expertos de centro seleccionaron las tecnologías a utilizar
+                            y trabajaron en parejas para diseñar tanto la prueba de Frontend como la de Backend. Si
+                            deseas obtener más información, simplemente haz clic en la prueba que te interese.
+                        </p>
+                        <div class="accordion accordion-flush acordion acordion-detalle" id="accordionFlushExample">
+                            <div class="accordion-item acordion-detalle">
+                                <h2 class="accordion-header acordion-detalle">
+                                    <button class="accordion-button collapsed acordion-detalle boton" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Front-End
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse acordion-detalle boton"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body acordion-detalle">
+                                        <p>
+                                            La prueba evalúa las habilidades del candidato en el desarrollo del
+                                            frontend, de la aplicación móvil "CINESCAPE", garantizando una experiencia
+                                            de usuario fluida, una interfaz atractiva. Por lo tanto se proporcionarán
+                                            los medios necesarios para realizar las interfaces.
+                                        </p>
+
+                                        <h4>Tecnologías Utilizadas:</h4>
+                                        <div class="tecnologias">
+                                            <p>
+                                                Para desarrollar esta prueba se utilizaron las
+                                                siguientes tecnologías: HTML para la estructura de las páginas, CSS se
+                                                empleó para darles estilo y presentación visual. Por su parte,
+                                                JavaScript se utilizó para agregar interactividad y funcionalidades
+                                                dinámicas a la aplicación.
+                                            </p>
+                                            <div class="tecnologias-iconos">
+                                                <div class="card-tecnologias">
+                                                    <img src="img/html.png" alt="html">
+                                                </div>
+
+                                                <div class="card-tecnologias">
+                                                    <img src="img/css.png" alt="css">
+                                                </div>
+
+                                                <div class="card-tecnologias">
+                                                    <img src="img/js.png" alt="js">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="contactame">Descargar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item acordion-detalle">
+                                <h2 class="accordion-header acordion-detalle">
+                                    <button class="accordion-button collapsed acordion-detalle" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Back-End
+                                    </button>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse acordion-detalle"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body acordion-detalle">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <p>
+                                                        Esta prueba consistía en crear el back-end de la
+                                                        aplicación web "Tu Inmueble Ideal" para el sector inmobiliario,
+                                                        asegurando que los cambios en el contenido no alteraran el
+                                                        diseño original. Por lo tanto se entregaron archivos de
+                                                        maquetación y
+                                                        directrices sobre las tecnologías y lenguajes a emplear,
+                                                        principalmente en su forma nativa, sin recurrir a frameworks.
+                                                        Uno de los desafíos cruciales consistía en manejar la presión
+                                                        del público y el factor tiempo, ya que se otorgaban puntos
+                                                        adicionales a los dos primeros competidores que entregaran la
+                                                        prueba completa minimo en un 90% antes de las primeras dos
+                                                        horas, agregando un nivel adicional de competencia.
+                                                    </p>
+
+                                                    <h4>Tecnologias Utilizadas:</h4>
+                                                    <div class="tecnologias">
+                                                        <p>
+                                                            Para desarrollar esta prueba se utilizaron las
+                                                            siguientes tecnologías: HTML para la estructura de las
+                                                            páginas web,
+                                                            PHP para crear aplicaciones web dinámicas y trabajar con
+                                                            bases de
+                                                            datos,
+                                                            y PhpMyAdmin como
+                                                            herramienta de administración para la gestión de la base de
+                                                            datos.
+                                                            La combinación de estas tecnologías permitió desarrollar un
+                                                            sistema
+                                                            robusto
+                                                            y funcional, facilitando la interacción con la base de datos
+                                                            y la
+                                                            presentación del contenido en el navegador web.
+                                                        </p>
+                                                        <div class="tecnologias-iconos">
+                                                            <div class="card-tecnologias">
+                                                                <img src="img/html.png" alt="html">
+                                                            </div>
+
+                                                            <div class="card-tecnologias">
+                                                                <img src="img/php.png" alt="php">
+                                                            </div>
+
+                                                            <div class="card-tecnologias">
+                                                                <img src="img/phpMyAdmin.png" alt="phpMyAdmin">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="contactame">Descargar</a>
+                                                </div>
+                                                <div class="col-md-4 foto-prueba">
+                                                    <img src="img/COMPITIENDO.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12"></div>
+                    </div>
+                    <!-- <div class="col-md-4 carrusel-tecnologias">
+                        <img src="img/foto-sobre.png" alt="">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenedor Preselección Regional Interna CDM -->
+        <section id="detalleLogro3" class="detalleLogro">
+            <div class="container">
+                <h2>Preselección Interna CDM</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            La Preselección Regional de WorldSkills se realiza en todos los Centros de Formación del
+                            SENA. Tuve la oportunidad de formar parte de este proceso en el Centro de Diseño y
+                            Metrología (CDM), junto a un grupo inicial de más de 10 aprendices. Sin embargo, solamente 6
+                            de nosotros logramos avanzar después de un proceso de selección que evaluó nuestras
+                            habilidades blandas y técnicas. Los elegidos pasamos por un entrenamiento intensivo
+                            destinado a perfeccionar nuestras destrezas, con el propósito de determinar a los 2 mejores
+                            candidatos que representarían al CDM en la Competencia Regional de WorldSkills. Donde logre
+                            ser una de los seleccionados para este desafiante y emocionante camino.
+                        </p>
+                        <h3>Tipo de Prueba:</h3>
+                        <p>
+                            A lo largo de nuestra preparación, nos desafiamos con una variedad de pruebas pasadas de la
+                            competencia. Esta estrategia fue diseñada para hacernos familiarizar con los métodos
+                            utilizados, incluyendo la guía de instrucciones, la gestión del tiempo y las herramientas
+                            tecnológicas. Asimismo, nos permitió abordar el conocimiento tanto en front-end como en
+                            back-end.
+                        </p>
+                        <p>Da click sobre la prueba que deseas ver.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="accordion accordion-flush acordion acordion-detalle" id="accordionFlushExample">
+                                <div class="accordion-item acordion-detalle">
+                                    <h2 class="accordion-header acordion-detalle">
+                                        <button class="accordion-button collapsed acordion-detalle boton" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Front-End
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne"
+                                        class="accordion-collapse collapse acordion-detalle boton"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body acordion-detalle">
+                                            <p>
+                                                Las pruebas evalúan las habilidades del candidato en el desarrollo del
+                                                frontend, garantizando una
+                                                experiencia de usuario fluida, una interfaz atractiva. Por lo tanto, sé proporcionarán los medios necesarios para realizar las interfaces.
+                                            </p>
+
+                                            <h4>Tecnologias Utilizadas:</h4>
+                                            <div class="tecnologias">
+                                                <p>
+                                                    Para desarrollar esta prueba se utilizaron las
+                                                    siguientes tecnologías: HTML para la estructura de las páginas web,
+                                                </p>
+                                                <div class="card-tecnologias">
+                                                    <img src="img/html.png" alt="html">
+                                                </div>
+
+                                                <div class="card-tecnologias">
+                                                    <img src="img/css.png" alt="css">
+                                                </div>
+
+                                                <div class="card-tecnologias">
+                                                    <img src="img/js.png" alt="js">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item acordion-detalle">
+                                    <h2 class="accordion-header acordion-detalle">
+                                        <button class="accordion-button collapsed acordion-detalle" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Back-End
+                                        </button>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse acordion-detalle"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body acordion-detalle">
+                                                <div class="row">
+                                                    <div class="col md-8">
+                                                        <p>
+                                                            La prueba evalúa las habilidades del candidato en el
+                                                            desarrollo del
+                                                            lado
+                                                            del servidor y su interacción con una base de datos. Se
+                                                            proporcionarán
+                                                            diseños de interfaces para realizar el CRUD. Por lo tanto
+                                                            deberá
+                                                            desarrollar el backend que permita gestionar la aplicación
+                                                            móvil "Tu
+                                                            Mejor Amigo en Casa", asegurando la seguridad, validación y
+                                                            experiencia
+                                                            de usuario.
+                                                        </p>
+
+                                                        <h4>Tecnologias Utilizadas:</h4>
+                                                        <div class="tecnologias">
+                                                            <div class="parrafos">
+                                                                <p>
+                                                                    Para desarrollar esta prueba se utilizaron las
+                                                                    siguientes
+                                                                    tecnologías: HTML para la estructura de las páginas
+                                                                    web, PHP
+                                                                    para
+                                                                    crear aplicaciones web dinámicas y trabajar con
+                                                                    bases de datos,
+                                                                    y
+                                                                    PhpMyAdmin como herramienta de administración para
+                                                                    la gestión de
+                                                                    la
+                                                                    base de datos.
+                                                                </p>
+                                                            </div>
+                                                            <div class="tecnologias-iconos">
+                                                                <div class="card-tecnologias">
+                                                                    <img src="img/html.png" alt="html">
+                                                                </div>
+
+                                                                <div class="card-tecnologias">
+                                                                    <img src="img/php.png" alt="php">
+                                                                </div>
+
+                                                                <div class="card-tecnologias">
+                                                                    <img src="img/phpMyAdmin.png" alt="phpMyAdmin">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="parrafos">
+                                                            <p>
+                                                                La combinación de estas tecnologías permitió desarrollar
+                                                                un sistema
+                                                                robusto y funcional, facilitando la interacción con la
+                                                                base de datos
+                                                                y
+                                                                la presentación del contenido en el navegador web. Por
+                                                                lo tanto, si
+                                                                desea examinar el proyecto con mayor profundidad, tendrá
+                                                                la
+                                                                posibilidad
+                                                                de descargarlo.
+                                                            </p>
+                                                        </div>
+                                                        <a href="#" class="contactame">Descargar</a>
+
+                                                    </div>
+                                                    <div class="col md-4">
+                                                        <img src="img/COMPITIENDO.jpg" alt="" width="100%">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+                                </div>
+                            </div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <footer id="contacto">
+        <p>&copy - Nicole Benavides 2023</p>
+        <div class="redesF">
+            <a href="https://github.com/Nicole-Benavides" target="_blanck"><img src="img/GitHub.png" alt="GitHub"></a>
+            <a href="www.linkedin.com/in/nicole-dayana-benavides-alfonso-356a62273" target="_blanck"><img
+                    src="img/LinkedIn.png" alt="LinkedIn"></a>
+            <a href="https://wa.link/ekwvw7" target="_blanck"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+
+
+
+        $(document).ready(function () {
+            $('.card-herramientas').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/Main.js"></script>
+</body>
+
+</html>
