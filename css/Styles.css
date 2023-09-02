@@ -9,7 +9,7 @@
 }
 
 :root {
-    --blanco: #D6421F;
+    --blanco: #ffffff;
     --primary-color: #020615;
     --secondary-color: #FF2D55;
     --titulos: 'Krona One', sans-serif;
@@ -104,29 +104,12 @@ header {
     color: var(--blanco);
 }
 
-/* focus */
-/* .barra-lista li a:focus {
-    color: var(--blanco);
-} */
-
-/* .barra-lista li a:focus::after {
-    content: "";
-    position: absolute;
-    top: 37px;
-    left: 8px;
-    z-index: 99;
-    border-bottom: 2px solid var(--secondary-color);
-    width: 33%;
-    display: block;
-} */
-
-
 
 
 /* hero estilos */
 #hero {
-    padding-top: 250px;
-    padding-bottom: 150px;
+    padding-top: 200px;
+    padding-bottom: 50px;
     background-color: var(--primary-color);
 }
 
@@ -166,21 +149,58 @@ header {
 }
 
 
-
 #hero .foto-hero img {
     width: 80%;
     margin-right: 150px;
 }
 
-#hero .redes {
-    padding: 60px;
+
+#hero .redesHero{
+    width: 450px;   
+    /* width: 35%; */
+    border-radius: 40px;
+
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 9;
+
+    padding: 20px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blanco);
 }
 
-.redes a img {
-    width: 50px;
-    margin: 15px;
-    
+.redesHero a#confi{
+    position: absolute;
+    left: 42%;
+    bottom: 30px;
+    z-index: 7;
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
 }
+
+.redesHero a#confi img{
+    margin: 0 0;
+}
+
+
+.redesHero a {
+    text-decoration: none;
+}
+
+
+.redesHero a img {
+    width: 40px;
+    margin: 0 20px;
+}
+
+
 
 /* sobre estilos */
 #sobre {
