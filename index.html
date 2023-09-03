@@ -80,10 +80,10 @@
                         </div>
                         <div class="col-md-6 espacio">
                             <p>Modo</p>
-                            <label for="claro">Modo Claro  </label>
+                            <label for="claro">Modo Claro </label>
                             <input type="radio" id="claro" checked>
                             <br>
-                            <label for="oscuro">Modo Oscuro  </label>
+                            <label for="oscuro">Modo Oscuro </label>
                             <input type="radio" id="oscuro">
                         </div>
                     </div>
@@ -414,14 +414,55 @@
         <!-- inmuebles -->
         <section id="detalleLogro1" class="detalleLogro">
             <div class="container">
-                <h2>Preseleccion Nacional</h2>
                 <div class="row">
-                    <div class="col-md-12">
-                        <p>
-                            La Preselección Nacional de WorldSkills se realizó en los 21 Centros de Formación del SENA,
-                            en la cual solo pasaban 6 representantes, quienes competirán en octubre en Cúcuta.
+                    <div class="col-md-6">
+                        <h2>Preseleccion Nacional</h2>
+                        <p id="">
+                            La Preselección Nacional de WorldSkills se realizó en los 21 Centros de Formación del SENA
+                            que participaron en la habilidad 17 Tecnologias Web, en la cual solo pasaban 6
+                            representantes, quienes competirán en octubre en Cúcuta en la Competencia Nacional.
                         </p>
-                        <!-- <h3>Tipo de Prueba:</h3>
+                        <div class="row cuadricula">
+                            <div class="col-md-6">
+                                <div class="tarjeta">
+                                    <h3>2 Horas</h3>
+                                    <p style="color: #fff;">Tiempo</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tarjeta">
+                                    <h3>2</h3>
+                                    <p style="color: #fff;">Pruebas</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tarjeta">
+                                    <h3>21</h3>
+                                    <p style="color: #fff;">Participantes</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tarjeta">
+                                    <h3>Sin Público</h3>
+                                    <p style="color: #fff;">Ambiente</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="tarjeta">
+                                    <h3>Competencia Nacional</h3>
+                                    <p style="color: #fff;">Paso siguiente</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="imagen-introduccion">
+                            <img src="img/COMPITIENDO2.jpg" alt="" title="Experto Regional y Entrenador">
+                            <p>Junto al Experto Regional y Entrenador</p>
+                        </div>
+                    </div>
+
+                    <!-- <h3>Tipo de Prueba:</h3>
                         <p>Da click sobre la prueba que deseas ver.</p>
                         <div class="accordion accordion-flush acordion acordion-detalle" id="accordionFlushExample">
                             <div class="accordion-item acordion-detalle">
@@ -469,160 +510,214 @@
                                             JavaScript se utilizó para agregar interactividad y funcionalidades
                                             dinámicas a la aplicación.
                                         </p> -->
-                        <!-- <a href="#" class="contactame">Descargar</a> -->
-                    </div>
+                    <!-- <a href="#" class="contactame">Descargar</a> -->
                 </div>
+            </div>
         </section>
 
 
         <!-- Contenedor Competencia Regional -->
         <section id="detalleLogro2" class="detalleLogro">
             <div class="container">
-                <h2>Competencia Regional</h2>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>
-                            La Competencia Regional de WorldSkills se realizó en el Centro de Diseño y Metrología (CDM)
-                            donde participaron 3 centros diferentes entre ellos: Electricidad, Audiovisuales y Cenigraf.
-                            De la misma forma el grupo de competidores estaba conformado por 9 aprendices SENA que ya
-                            habían pasado el proceso de selección Interna en su centro correspondiente. En esta ocasión
+                        <h2>Competencia Regional</h2>
+                        <p id="introduccion">
+                            La Competencia Regional de WorldSkills se realizó en el Centro de Diseño y Metrología (CDM).
+                            Donde participaron los siguientes centros: Electricidad, Audiovisuales, Cenigraf y CDM. De
+                            la misma forma el grupo de competidores estaba conformado por 9 aprendices SENA que ya
+                            habían pasado el proceso de selección interna en su centro correspondiente. En esta ocasión
                             el representante de Electricidad Juan ganó la medalla de plata, y en representación del CDM
-                            mi compañero Estiben ganó la medalla de plata Steven y yo gané la medalla de Oro.
-                        </p>
-                        <div class="imagen-introduccion">
-                            <img src="img/compañerosRegional.jpg" alt="" title=" y Entrenadores">
-                            <figcaption>Competidores con sus Entrenadores</figcaption>
-                        </div>
-                        <h3>Tipo de Prueba:</h3>
-                        <p>
-                            En esta competencia, los cuatro expertos de centro seleccionaron las tecnologías a utilizar
-                            y trabajaron en parejas para diseñar tanto la prueba de Frontend como la de Backend. Si
+                            mi compañero Estiben ganó la medalla de plata y yo gané la medalla de Oro.
+                            En esta competencia, los cuatro expertos de centro seleccionaron las tecnologías a
+                            utilizar
+                            y trabajaron en parejas para diseñar tanto la prueba de Frontend como la de Backend.
+                            Si
                             deseas obtener más información, simplemente haz clic en la prueba que te interese.
                         </p>
-                        <div class="accordion accordion-flush acordion acordion-detalle" id="accordionFlushExample">
-                            <div class="accordion-item acordion-detalle">
-                                <h2 class="accordion-header acordion-detalle">
-                                    <button class="accordion-button collapsed acordion-detalle boton" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                        aria-expanded="false" aria-controls="flush-collapseOne">
-                                        Front-End
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse acordion-detalle boton"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body acordion-detalle">
-                                        <p>
-                                            La prueba evalúa las habilidades del candidato en el desarrollo del
-                                            frontend, de la aplicación móvil "CINESCAPE", garantizando una experiencia
-                                            de usuario fluida, una interfaz atractiva. Por lo tanto se proporcionarán
-                                            los medios necesarios para realizar las interfaces.
-                                        </p>
-
-                                        <h4>Tecnologías Utilizadas:</h4>
-                                        <div class="tecnologias">
-                                            <p>
-                                                Para desarrollar esta prueba se utilizaron las
-                                                siguientes tecnologías: HTML para la estructura de las páginas, CSS se
-                                                empleó para darles estilo y presentación visual. Por su parte,
-                                                JavaScript se utilizó para agregar interactividad y funcionalidades
-                                                dinámicas a la aplicación.
-                                            </p>
-                                            <div class="tecnologias-iconos">
-                                                <div class="card-tecnologias">
-                                                    <img src="img/html.png" alt="html">
-                                                </div>
-
-                                                <div class="card-tecnologias">
-                                                    <img src="img/css.png" alt="css">
-                                                </div>
-
-                                                <div class="card-tecnologias">
-                                                    <img src="img/js.png" alt="js">
-                                                </div>
-                                            </div>
+                        <div class="imagen-introduccion">
+                            <img src="img/compañerosRegional.jpg" alt="" title=" Compañeros y Entrenadores">
+                            <p>Competidores con sus Entrenadores</p>
+                        </div>
+                        <div class="container" id="filtroPruebas">
+                            <div class="row">
+                                <div class="col-md-12  filtroPruebas">
+                                    <h3>Tipo de Prueba</h3>
+                                    <div class="botonesFiltro">
+                                        <div class="cont-botones">
+                                            <a href="#filtroPruebas" id="visual2">
+                                                <img src="img/ojo.png" alt="">
+                                                <p>Front-End</p>
+                                            </a>
                                         </div>
-                                        <a href="#" class="contactame">Descargar</a>
+                                        <div class="cont-botones">
+                                            <a href="#filtroPruebas" id="logica2">
+                                                <img src="img/logica.png" alt="">
+                                                <p>Back-End</p>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item acordion-detalle">
-                                <h2 class="accordion-header acordion-detalle">
-                                    <button class="accordion-button collapsed acordion-detalle" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                        aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        Back-End
-                                    </button>
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse acordion-detalle"
-                                        data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body acordion-detalle">
-                                            <div class="row">
-                                                <div class="col-md-8">
-                                                    <p>
-                                                        Esta prueba consistía en crear el back-end de la
-                                                        aplicación web "Tu Inmueble Ideal" para el sector inmobiliario,
-                                                        asegurando que los cambios en el contenido no alteraran el
-                                                        diseño original. Por lo tanto se entregaron archivos de
-                                                        maquetación y
-                                                        directrices sobre las tecnologías y lenguajes a emplear,
-                                                        principalmente en su forma nativa, sin recurrir a frameworks.
-                                                        Uno de los desafíos cruciales consistía en manejar la presión
-                                                        del público y el factor tiempo, ya que se otorgaban puntos
-                                                        adicionales a los dos primeros competidores que entregaran la
-                                                        prueba completa minimo en un 90% antes de las primeras dos
-                                                        horas, agregando un nivel adicional de competencia.
-                                                    </p>
+                        </div>
+                        <div class="container">
+                            <div class="row pruebas" id="contVisual2">
+                                <div class="col-md-6">
+                                    <h2>Front-End</h2>
+                                    <p>
+                                        La prueba evalúa las habilidades del candidato en el desarrollo del frontend, de
+                                        la aplicación móvil "CINESCAPE", garantizando una experiencia de usuario fluida,
+                                        una interfaz atractiva. Por lo tanto se proporcionarán los medios necesarios
+                                        para realizar las interfaces.
+                                    </p>
+                                    <h2>Tecnologias Utilizadas:</h2>
+                                    <div class="tecnologias">
+                                        <p>
+                                            Para desarrollar esta prueba se utilizaron las
+                                            siguientes tecnologías: HTML para la estructura de las páginas,
+                                            CSS se
+                                            empleó para darles estilo y presentación visual. Por su parte,
+                                            JavaScript se utilizó para agregar interactividad y
+                                            funcionalidades
+                                            dinámicas a la aplicación.
+                                        </p>
+                                        <div class="tecnologias-iconos">
+                                            <div class="card-tecnologias">
+                                                <img src="img/html.png" alt="html">
+                                            </div>
 
-                                                    <h4>Tecnologias Utilizadas:</h4>
-                                                    <div class="tecnologias">
-                                                        <p>
-                                                            Para desarrollar esta prueba se utilizaron las
-                                                            siguientes tecnologías: HTML para la estructura de las
-                                                            páginas web,
-                                                            PHP para crear aplicaciones web dinámicas y trabajar con
-                                                            bases de
-                                                            datos,
-                                                            y PhpMyAdmin como
-                                                            herramienta de administración para la gestión de la base de
-                                                            datos.
-                                                            La combinación de estas tecnologías permitió desarrollar un
-                                                            sistema
-                                                            robusto
-                                                            y funcional, facilitando la interacción con la base de datos
-                                                            y la
-                                                            presentación del contenido en el navegador web.
-                                                        </p>
-                                                        <div class="tecnologias-iconos">
-                                                            <div class="card-tecnologias">
-                                                                <img src="img/html.png" alt="html">
-                                                            </div>
+                                            <div class="card-tecnologias">
+                                                <img src="img/css.png" alt="css">
+                                            </div>
 
-                                                            <div class="card-tecnologias">
-                                                                <img src="img/php.png" alt="php">
-                                                            </div>
-
-                                                            <div class="card-tecnologias">
-                                                                <img src="img/phpMyAdmin.png" alt="phpMyAdmin">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <a href="#" class="contactame">Descargar</a>
-                                                </div>
-                                                <div class="col-md-4 foto-prueba">
-                                                    <img src="img/COMPITIENDO.jpg" alt="">
-                                                </div>
+                                            <div class="card-tecnologias">
+                                                <img src="img/js.png" alt="js">
                                             </div>
                                         </div>
                                     </div>
-                                </h2>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row cuadricula">
+                                        <div class="col-md-6">
+                                            <div class="tarjeta">
+                                                <h3>4 Horas</h3>
+                                                <p>Tiempo</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="tarjeta">
+                                                <h3>9</h3>
+                                                <p>Participantes</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="tarjeta">
+                                                <h3>Preselección Nacional</h3>
+                                                <p>Paso siguiente</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="tarjeta">
+                                                <h3>Con Público</h3>
+                                                <p>Ambiente</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" target="_blank" class="btn-principal">Descargar</a>
+                                </div>
+                            </div>
+
+                            <div class="row pruebas" id="contLogica2">
+                                <div class="col-md-6">
+                                    <h2>Back-End</h2>
+                                    <p>
+                                        En esta prueba, se debía desarrollar el backend de la aplicación web "Tu
+                                        Inmueble Ideal" para el sector inmobiliario, manteniendo la integridad del
+                                        diseño original frente a cambios en el contenido.Por lo tanto, se proporcionaron
+                                        archivos de maquetación y directrices sobre las tecnologías y lenguajes a
+                                        utilizar, priorizando el uso de tecnologías nativas en lugar de frameworks. Un
+                                        desafío importante era gestionar la presión del público y el tiempo, ya que se
+                                        otorgaban puntos adicionales a los dos primeros competidores que entregaran al
+                                        menos el 90% de la prueba completa en las primeras dos horas, lo que añadía un
+                                        nivel adicional de competencia.
+                                    </p>
+                                    <h2>Tecnologias Utilizadas:</h2>
+                                    <div class="tecnologias">
+                                        <p>
+                                            HTML para la estructura de
+                                            las
+                                            páginas web,
+                                            PHP para crear aplicaciones web dinámicas y trabajar
+                                            con
+                                            bases de
+                                            datos,
+                                            y PhpMyAdmin como
+                                            herramienta de administración para la gestión de la
+                                            base de
+                                            datos.
+                                            La combinación de estas tecnologías permitió
+                                            desarrollar un
+                                            sistema
+                                            robusto
+                                            y funcional, facilitando la interacción con la base
+                                            de datos
+                                            y la
+                                            presentación del contenido en el navegador web.
+                                        </p>
+                                        <div class="tecnologias-iconos">
+                                            <div class="card-tecnologias">
+                                                <img src="img/html.png" alt="html">
+                                            </div>
+
+                                            <div class="card-tecnologias">
+                                                <img src="img/php.png" alt="php">
+                                            </div>
+
+                                            <div class="card-tecnologias">
+                                                <img src="img/phpMyAdmin.png" alt="phpMyAdmin">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row cuadricula">
+                                        <div class="col-md-6">
+                                            <div class="tarjeta">
+                                                <h3>4 Horas</h3>
+                                                <p>Tiempo Definido</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="tarjeta">
+                                                <h3>2 Horas</h3>
+                                                <p>Tiempo Entregado</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="tarjeta">
+                                                <h3>Con Público</h3>
+                                                <p>Ambiente</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="tarjeta">
+                                                <h3>9</h3>
+                                                <p>Participantes</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="tarjeta">
+                                                <h3>Preselección Nacional</h3>
+                                                <p>Paso siguiente</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" target="_blank" class="btn-principal">Descargar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12"></div>
-                    </div>
-                    <!-- <div class="col-md-4 carrusel-tecnologias">
-                        <img src="img/foto-sobre.png" alt="">
-                    </div> -->
+
                 </div>
             </div>
         </section>
@@ -630,169 +725,172 @@
         <!-- Contenedor Preselección Regional Interna CDM -->
         <section id="detalleLogro3" class="detalleLogro">
             <div class="container">
-                <h2>Preselección Interna CDM</h2>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>
-                            La Preselección Regional de WorldSkills se realiza en todos los Centros de Formación del
-                            SENA. Tuve la oportunidad de formar parte de este proceso en el Centro de Diseño y
-                            Metrología (CDM), junto a un grupo inicial de más de 10 aprendices. Sin embargo, solamente 6
-                            de nosotros logramos avanzar después de un proceso de selección que evaluó nuestras
-                            habilidades blandas y técnicas. Los elegidos pasamos por un entrenamiento intensivo
-                            destinado a perfeccionar nuestras destrezas, con el propósito de determinar a los 2 mejores
-                            candidatos que representarían al CDM en la Competencia Regional de WorldSkills. Donde logre
-                            ser una de los seleccionados para este desafiante y emocionante camino.
-                        </p>
-                        <h3>Tipo de Prueba:</h3>
-                        <p>
-                            A lo largo de nuestra preparación, nos desafiamos con una variedad de pruebas pasadas de la
-                            competencia. Esta estrategia fue diseñada para hacernos familiarizar con los métodos
+                        <h2>
+                            Preselección Interna CDM (Regional)
+                        </h2>
+                        <p id="introduccion">
+                            En todos los centros de formación del SENA, se realiza un proceso de selección con el
+                            objetivo de identificar a los aprendices con potencial para las Competencias Regionales de
+                            WorldSkills. Este proceso evalúa tanto las habilidades técnicas como las habilidades blandas
+                            de los participantes. Para que los candidatos que sean seleccionados reciban un
+                            entrenamiento intensivo diseñado para mejorar sus destrezas y de esta forma elegir los dos
+                            más destacados para representar al centro en la competición. A lo largo de nuestra
+                            preparación, nos desafiamos con una variedad de pruebas pasadas de la competencia. Esta
+                            estrategia fue diseñada por el experto para hacernos familiarizar con los métodos
                             utilizados, incluyendo la guía de instrucciones, la gestión del tiempo y las herramientas
                             tecnológicas. Asimismo, nos permitió abordar el conocimiento tanto en front-end como en
                             back-end.
                         </p>
-                        <p>Da click sobre la prueba que deseas ver.</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="accordion accordion-flush acordion acordion-detalle" id="accordionFlushExample">
-                                <div class="accordion-item acordion-detalle">
-                                    <h2 class="accordion-header acordion-detalle">
-                                        <button class="accordion-button collapsed acordion-detalle boton" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                            aria-expanded="false" aria-controls="flush-collapseOne">
-                                            Front-End
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseOne"
-                                        class="accordion-collapse collapse acordion-detalle boton"
-                                        data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body acordion-detalle">
-                                            <p>
-                                                Las pruebas evalúan las habilidades del candidato en el desarrollo del
-                                                frontend, garantizando una
-                                                experiencia de usuario fluida, una interfaz atractiva. Por lo tanto, sé
-                                                proporcionarán los medios necesarios para realizar las interfaces.
-                                            </p>
-
-                                            <h4>Tecnologias Utilizadas:</h4>
-                                            <div class="tecnologias">
-                                                <p>
-                                                    Para desarrollar esta prueba se utilizaron las
-                                                    siguientes tecnologías: HTML para la estructura de las páginas web,
-                                                </p>
-                                                <div class="card-tecnologias">
-                                                    <img src="img/html.png" alt="html">
-                                                </div>
-
-                                                <div class="card-tecnologias">
-                                                    <img src="img/css.png" alt="css">
-                                                </div>
-
-                                                <div class="card-tecnologias">
-                                                    <img src="img/js.png" alt="js">
-                                                </div>
-                                            </div>
+                        <div class="container" id="filtroPruebas">
+                            <div class="row">
+                                <div class="col-md-12  filtroPruebas">
+                                    <h3>Tipo de Prueba</h3>
+                                    <div class="botonesFiltro">
+                                        <div class="cont-botones">
+                                            <a href="#filtroPruebas" id="visual">
+                                                <img src="img/ojo.png" alt="">
+                                                <p>Front-End</p>
+                                            </a>
+                                        </div>
+                                        <div class="cont-botones">
+                                            <a href="#filtroPruebas" id="logica">
+                                                <img src="img/logica.png" alt="">
+                                                <p>Back-End</p>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item acordion-detalle">
-                                    <h2 class="accordion-header acordion-detalle">
-                                        <button class="accordion-button collapsed acordion-detalle" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                            aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            Back-End
-                                        </button>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse acordion-detalle"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body acordion-detalle">
-                                                <div class="row">
-                                                    <div class="col md-8">
-                                                        <p>
-                                                            La prueba evalúa las habilidades del candidato en el
-                                                            desarrollo del
-                                                            lado
-                                                            del servidor y su interacción con una base de datos. Se
-                                                            proporcionarán
-                                                            diseños de interfaces para realizar el CRUD. Por lo tanto
-                                                            deberá
-                                                            desarrollar el backend que permita gestionar la aplicación
-                                                            móvil "Tu
-                                                            Mejor Amigo en Casa", asegurando la seguridad, validación y
-                                                            experiencia
-                                                            de usuario.
-                                                        </p>
-
-                                                        <h4>Tecnologias Utilizadas:</h4>
-                                                        <div class="tecnologias">
-                                                            <div class="parrafos">
-                                                                <p>
-                                                                    Para desarrollar esta prueba se utilizaron las
-                                                                    siguientes
-                                                                    tecnologías: HTML para la estructura de las páginas
-                                                                    web, PHP
-                                                                    para
-                                                                    crear aplicaciones web dinámicas y trabajar con
-                                                                    bases de datos,
-                                                                    y
-                                                                    PhpMyAdmin como herramienta de administración para
-                                                                    la gestión de
-                                                                    la
-                                                                    base de datos.
-                                                                </p>
-                                                            </div>
-                                                            <div class="tecnologias-iconos">
-                                                                <div class="card-tecnologias">
-                                                                    <img src="img/html.png" alt="html">
-                                                                </div>
-
-                                                                <div class="card-tecnologias">
-                                                                    <img src="img/php.png" alt="php">
-                                                                </div>
-
-                                                                <div class="card-tecnologias">
-                                                                    <img src="img/phpMyAdmin.png" alt="phpMyAdmin">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="parrafos">
-                                                            <p>
-                                                                La combinación de estas tecnologías permitió desarrollar
-                                                                un sistema
-                                                                robusto y funcional, facilitando la interacción con la
-                                                                base de datos
-                                                                y
-                                                                la presentación del contenido en el navegador web. Por
-                                                                lo tanto, si
-                                                                desea examinar el proyecto con mayor profundidad, tendrá
-                                                                la
-                                                                posibilidad
-                                                                de descargarlo.
-                                                            </p>
-                                                        </div>
-                                                        <a href="#" class="contactame">Descargar</a>
-
-                                                    </div>
-                                                    <div class="col md-4">
-                                                        <img src="img/COMPITIENDO.jpg" alt="" width="100%">
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>
-
-                                </div>
                             </div>
-                            </h2>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="row pruebas" id="contVisual">
+                    <div class="col-md-6">
+                        <h2>
+                            Front-End
+                        </h2>
+                        <p>
+                            Esta prueba fue la que se representó en la primera etapa del proceso de selección y tuvo
+                            como objetivo evaluar nuestras habilidades en maquetación, atención al detalle, manejo del
+                            público y rapidez en el desarrollo del frontend de una landing page dedicada a veterinarias.
+                            Por lo tanto, se proporcionaron los recursos necesarios para su construcción.
+                        </p>
+                        <h2>Tecnologias Utilizadas</h2>
+                        <div class="tecnologias">
+                            <p>
+                                Para desarrollar esta prueba, se permitía el uso de diversas tecnologías. Sin embargo,
+                                es importante destacar que algunas de ellas tenían restricciones. Por ejemplo, en el
+                                caso de Bootstrap, solo se podía utilizar el CDN de CSS y JavaScript, lo que requería
+                                que el candidato conociera la estructura de los componentes de memoria. En mi caso, opté
+                                por utilizar HTML y CSS nativo.
+                            </p>
+                            <div class="card-tecnologias">
+                                <img src="img/html.png" alt="html">
+                            </div>
+
+                            <div class="card-tecnologias">
+                                <img src="img/css.png" alt="css">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row cuadricula">
+                            <div class="col-md-6">
+                                <div class="tarjeta">
+                                    <h3>2 Horas</h3>
+                                    <p>Tiempo</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tarjeta">
+                                    <h3>10</h3>
+                                    <p>Participantes</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="tarjeta">
+                                    <h3>Entrenamiento y Competencia Regional</h3>
+                                    <p>Paso siguiente</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="btn-principal">Descargar</a>
+                    </div>
+                </div>
             </div>
+
+            <div class="container">
+                <div class="row pruebas" id="contLogica">
+                    <div class="col-md-6">
+                        <h2>
+                            Back-End
+                        </h2>
+                        <p>
+                            Durante la etapa de selección, no se llevaron a cabo pruebas de back-end. No obstante, a lo
+                            largo del proceso de entrenamiento, se abordaron conceptos básicos mediante diversas pruebas
+                            y contenidos con el propósito de estar preparados para la prueba en la Regional. Uno de los
+                            ejercicios realizados fue la gestión de datos (CRUD) de la aplicación móvil "Tu Mejor Amigo
+                            en Casa", que incluyó las consideraciones de seguridad, validación y mejora de la
+                            experiencia de usuario.
+                        </p>
+                        <h2>Tecnologias Utilizadas</h2>
+                        <div class="tecnologias">
+                            <p>
+                                Para desarrollar estas prueba se utilizaron las siguientes tecnologías: HTML para la
+                                estructura de las páginas web, PHP para crear aplicaciones web dinámicas y trabajar con
+                                bases de datos, y PhpMyAdmin como herramienta de administración para la gestión de la
+                                base de datos.
+                            </p>
+                            <div class="card-tecnologias">
+                                <img src="img/html.png" alt="html">
+                            </div>
+
+                            <div class="card-tecnologias">
+                                <img src="img/php.png" alt="css">
+                            </div>
+
+
+                            <div class="card-tecnologias">
+                                <img src="img/phpMyAdmin.png" alt="css">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row cuadricula">
+                            <div class="col-md-6">
+                                <div class="tarjeta">
+                                    <h3>3 Semanas</h3>
+                                    <p>Tiempo de Entrenamiento</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tarjeta">
+                                    <h3>MVC</h3>
+                                    <p>Patrón de arquitectura</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="tarjeta">
+                                    <h3>Competencia Regional</h3>
+                                    <p>Paso siguiente</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="btn-principal">Descargar</a>
+                    </div>
+                </div>
             </div>
         </section>
+
+
+
+
 
 
 
@@ -804,8 +902,9 @@
         <p>&copy - Nicole Benavides 2023</p>
         <div class="redesF">
             <a href="https://github.com/Nicole-Benavides" target="_blanck"><img src="img/GitHub.png" alt="GitHub"></a>
-            <a href="www.linkedin.com/in/nicole-dayana-benavides-alfonso-356a62273" target="_blanck"><img
-                    src="img/LinkedIn.png" alt="LinkedIn"></a>
+            <a href="https://www.linkedin.com/in/nicole-dayana-benavides-alfonso-356a62273/" target="_blanck">
+                <img src="img/LinkedIn.png" alt="LinkedIn">
+            </a>
             <a href="https://wa.link/ekwvw7" target="_blanck"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
         </div>
 

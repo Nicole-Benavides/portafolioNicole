@@ -34,6 +34,46 @@ function llamar3() {
 
 // ------------------------------------------------------------------------------------
 
+// Variables para desplegar el tipo de prueba (Frontend / Backend))
+let btnF = document.getElementById('visual');
+let ContenedorF = document.getElementById('contVisual');
+let btnB = document.getElementById('logica');
+let ContenedorB = document.getElementById('contLogica');
+
+let btnF2 = document.getElementById('visual2');
+let ContenedorF2 = document.getElementById('contVisual2');
+let btnB2 = document.getElementById('logica2');
+let ContenedorB2 = document.getElementById('contLogica2');
+
+
+btnF.addEventListener('click', ContF);
+btnB.addEventListener('click', ContB);
+
+btnF2.addEventListener('click', ContF2);
+btnB2.addEventListener('click', ContB2);
+
+function ContF(){
+    ContenedorF.classList.toggle('mostrar');
+    ContenedorB.classList.remove('mostrar');
+}
+function ContB(){
+    ContenedorF.classList.remove('mostrar');
+    ContenedorB.classList.toggle('mostrar');
+}
+
+function ContF2(){
+    ContenedorF2.classList.toggle('mostrar');
+    ContenedorB2.classList.remove('mostrar');
+}
+function ContB2(){
+    ContenedorF2.classList.remove('mostrar');
+    ContenedorB2.classList.toggle('mostrar');
+}
+
+// ------------------------------------------------------------------------------------
+
+
+
 
 // variables para colocar el efecto de linea en los enlaces del menu 
 let enlace1 = document.getElementById('enlace1');

@@ -29,6 +29,8 @@ h4 {
 
 p {
     font-size: 18px;
+    font-family: var(--parrafos);
+    color: var(--blanco);
 }
 
 
@@ -47,7 +49,7 @@ header {
     left: 0;
     z-index: 999;
 
-    padding: 15px;
+    padding-top: 15px;
     background-color: var(--primary-color);
 }
 
@@ -273,6 +275,11 @@ header {
 
 }
 
+
+#sobre p {
+    color: var(--primary-color);
+}
+
 #sobre h3 {
     font-family: var(--titulos);
     color: var(--primary-color);
@@ -341,6 +348,8 @@ hr {
 
 #sobre p {
     font-size: 18px;
+    text-align: justify;
+    margin: 0;
 }
 
 .foto-sobre {
@@ -444,6 +453,7 @@ hr {
 #perfil p {
     margin: 0 auto;
     padding-bottom: 25px;
+    color: var(--primary-color);
 }
 
 #perfil .card-perfil {
@@ -534,6 +544,7 @@ hr {
 
 #logros p {
     font-weight: 300;
+    color: #000;
     color: var(--blanco);
 }
 
@@ -624,6 +635,198 @@ hr {
     display: block;
 }
 
+
+.detalleLogro h2{
+    text-align: center;
+    font-family: var(--titulos);
+    color: var(--blanco);
+    padding-bottom: 15px;
+}
+
+.detalleLogro p#introduccion{
+    width: 82%;
+    margin: 20px auto;
+    color: var(--blanco);
+}
+
+/* empieza filtroPruebas */
+.detalleLogro .filtroPruebas {
+    width: 50%;
+    border-radius: 70px;
+    margin: 0 auto;
+    background-color: var(--blanco);
+    position: relative;
+    top: 70px;
+    left: 0;
+    z-index: 9;
+}
+
+.detalleLogro .filtroPruebas h3{
+    padding: 15px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.botonesFiltro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonesFiltro a{
+    margin: 0 10px;
+    color: var(--primary-color);
+    text-align: center;
+    text-decoration: none;
+}
+
+.botonesFiltro p{
+    margin: 0 10px;
+    color: var(--primary-color);
+    text-align: center;
+    text-decoration: none;
+}
+
+.botonesFiltro a img {
+    width: 40px;
+    margin: 0 20px;
+}
+/* fin filtroPruebas */
+
+
+.detalleLogro .pruebas {
+    padding: 100px 0 50px 50px;
+    border-radius: 50px;
+    background-color: var(--blanco);
+    display: none;
+}
+
+.detalleLogro .pruebas.mostrar{
+    padding: 100px 0 50px 50px;
+    border-radius: 50px;
+    background-color: var(--blanco);
+    display: flex;
+}
+
+
+.detalleLogro .pruebas h2{
+    padding: 0;
+    text-align: left;
+    color: var(--secondary-color);
+    font-size: 25px;
+}
+
+.detalleLogro .pruebas p{
+    padding-bottom: 25px;
+    margin: 0;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+
+.detalleLogro .pruebas .tecnologias {
+    display: block;
+}
+
+.detalleLogro .tecnologias .card-tecnologias {
+    display: inline-block;
+}
+
+.detalleLogro .card-tecnologias img {
+    width: 100px;
+    margin: 15px 40px 15px 0;
+} 
+
+
+.detalleLogro .cuadricula{
+    padding: 25px;
+    text-align: center;
+}
+
+.detalleLogro .cuadricula .tarjeta{
+    background: #75757524;
+    border: 3px solid #fafafa12;
+    backdrop-filter: blur(0.4rem);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.detalleLogro .cuadricula .tarjeta:hover{
+    background: #FF2D55;
+    border: 3px solid #fafafa12;
+    backdrop-filter: blur(0.4rem);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.cuadricula .tarjeta h3{
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.cuadricula .tarjeta:hover h3{
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.cuadricula .tarjeta p{
+    text-align: center;
+    color: var(--primary-color);
+    padding: 0;
+}
+
+.detalleLogro a.btn-principal {
+    margin: 230px;
+    text-align: center;
+    padding: 20px 23px;
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    border-radius: 50px;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-family: var(--titulos);
+}
+
+.detalleLogro .imagen-introduccion {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-color: #FF2D55;
+}
+
+.detalleLogro .imagen-introduccion img {
+    width: 100%;
+}
+
+.detalleLogro .imagen-introduccion p {
+    display: none;
+}
+
+.detalleLogro .imagen-introduccion:hover p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #ff2d55d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+
+
+
+
+
+
+/* 
 .detalleLogro h2 {
     text-align: center;
     font-family: var(--titulos);
@@ -631,16 +834,10 @@ hr {
     padding-bottom: 15px;
 }
 
-.detalleLogro .imagen-introduccion {
-    text-align: center;
-    position: relative;
-    margin-bottom: 30px;
-}
 
 
-
-.detalleLogro .imagen-introduccion img {
-    width: 70%;
+.detalleLogro .foto-prueba img {
+    width: 100%;
 }
 
 .detalleLogro .imagen-introduccion figcaption {
@@ -672,22 +869,7 @@ hr {
 
 
 
-.detalleLogro .tecnologias {
-    display: block;
-}
 
-.detalleLogro .foto-prueba img {
-    width: 100%;
-}
-
-.tecnologias-iconos {
-    display: flex;
-    margin: 10px;
-}
-
-.card-tecnologias {
-    display: inline-block;
-}
 
 .detalleLogro p {
     margin: 0 auto;
@@ -698,7 +880,7 @@ hr {
 }
 
 
-.detalleLogro h3 {
+/* .detalleLogro h3 {
     font-family: var(--titulos);
     color: var(--secondary-color);
     text-align: left;
@@ -717,7 +899,7 @@ hr {
 .acordion-detalle p {
     color: var(--blanco);
     font-weight: 300;
-}
+}  */
 
 
 
@@ -732,31 +914,28 @@ hr {
 /* flechas de dezpliegue */
 
 /* mostrar */
-.accordion-button::after {
+/* .accordion-button::after {
     background-image: url('../img/flecha.png');
     transform: rotate(180deg);
-}
+} */
 
 /* ocultar */
-.accordion-button:not(.collapsed)::after {
+/* .accordion-button:not(.collapsed)::after {
     background-image: url('../img/flecha.png');
     transform: rotate(360deg);
-}
+} */
 
 /* .detalleLogro .boton::after{
     background-image: url('../img/flecha.png');
     transform: rotate(180deg);
 } */
 
+/* 
 
 
 
-.detalleLogro .card-tecnologias img {
-    width: 100px;
-    margin: 15px 40px 15px 0;
-}
 
-
+/* 
 .detalleLogro a.contactame {
     padding: 10px 15px;
     background-color: var(--secondary-color);
@@ -776,9 +955,9 @@ hr {
 
 .detalleLogro .carrusel-tecnologias {
     position: relative;
-}
+} */
 
-.detalleLogro .tiempo {
+/* .detalleLogro .tiempo {
     position: absolute;
     top: 75px;
     right: 87px;
@@ -791,7 +970,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /* footer */
 footer {
@@ -803,7 +982,44 @@ footer {
 
 }
 
+footer p{
+    color: var(--primary-color);
+}
+
 footer .redesF img {
     width: 50px;
     margin: 20px;
+}
+
+.rosa{
+    background-color: var(--secondary-color);
+}
+
+.card5{
+    text-align: center;
+}
+
+.card5 h3{
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.card5 p{
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#logros .modos {
+    width: 400px;
+    background: #75757524;
+    border: 3px solid #fafafa12;
+    backdrop-filter: blur(0.4rem);
+    padding: 20px;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
 }
