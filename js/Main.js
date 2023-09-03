@@ -13,6 +13,7 @@ trofeo1.addEventListener('click', llamar1);
 trofeo2.addEventListener('click', llamar2);
 trofeo3.addEventListener('click', llamar3);
 
+// funciones para desplegar la seccion detalles de los logros
 function llamar1() {
     detalleLogro1.classList.add('active');
     detalleLogro2.classList.remove('active');
@@ -31,8 +32,10 @@ function llamar3() {
     detalleLogro3.classList.add('active');
 }
 
+// ------------------------------------------------------------------------------------
 
-// 
+
+// variables para colocar el efecto de linea en los enlaces del menu 
 let enlace1 = document.getElementById('enlace1');
 let enlace2 = document.getElementById('enlace2');
 let enlace3 = document.getElementById('enlace3');
@@ -47,7 +50,7 @@ enlace4.addEventListener('click', after4);
 enlace5.addEventListener('click', after5);
 enlace6.addEventListener('click', after6);
 
-
+// funciones para el efecto de linea en los enlaces del menu 
 function after1() {
     enlace1.classList.add('activo');
     enlace2.classList.remove('activo');
@@ -102,6 +105,20 @@ function after6() {
     enlace6.classList.add('activo');
 }
 
+// ------------------------------------------------------------------------------------
+
+
+// variables para desplegar configuraciones de (Idioma / Modo)
+let botonConfi = document.getElementById('confi');
+let contConfi = document.getElementById('modos');
+
+botonConfi.addEventListener('click' , panelConfi);
+
+function panelConfi(){
+    contConfi.classList.toggle('activo');
+}
+
+// enlace para animaciones 
 AOS.init();
 
 
