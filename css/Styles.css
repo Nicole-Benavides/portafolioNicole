@@ -239,7 +239,6 @@ header {
 }
 
 #hero .modos p{
-    width: 100px;
     text-align: center;
     color: var(--blanco);
 }
@@ -249,8 +248,13 @@ header {
     color: var(--blanco);
 }
 
+#hero .modos .botonesColores {
+    text-align: center;
+    margin: 0 auto;
+}
 
-#hero .modos button#principal {
+
+#hero .modos button#morado {
     width: 20px;
     height: 20px;
     margin: 7px;

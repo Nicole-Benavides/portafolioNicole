@@ -148,7 +148,7 @@ function after6() {
 // ------------------------------------------------------------------------------------
 
 
-// variables para desplegar configuraciones de (Idioma / Modo)
+// variables para desplegar configuraciones de (Idioma / Colores)
 let botonConfi = document.getElementById('confi');
 let contConfi = document.getElementById('modos');
 
@@ -157,6 +157,37 @@ botonConfi.addEventListener('click' , panelConfi);
 function panelConfi(){
     contConfi.classList.toggle('activo');
 }
+
+// ------------------------------------------------------------------------------------
+// variables para cambiar colores
+let btnMorado = document.getElementById('morado');
+let btnAzul = document.getElementById('azul');
+let btnAmarillo = document.getElementById('amarillo');
+
+
+var link = document.getElementById('styles');
+
+console.log(link);
+
+btnMorado.addEventListener('click' , morado);
+btnAzul.addEventListener('click' , azul);
+btnAmarillo.addEventListener('click' , amarillo);
+
+function morado(){
+    link.href="css/StylesMorado.css";
+}
+
+function azul(){
+    link.href="css/StylesAzul.css";
+}
+
+function amarillo(){
+    link.href="css/StylesAmarillo.css";
+}
+
+
+
+
 
 // enlace para animaciones 
 AOS.init();
